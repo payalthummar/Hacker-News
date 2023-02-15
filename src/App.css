@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu&display=swap");
+
+.App {
+  background-color: rgb(203, 199, 199);
+  color: ghostwhite;
+}
+
+body {
+  background-color: rgb(203, 199, 199);
+}
+
+* {
+  font-family: Ubuntu, Lato, serif;
+}
+
+.spinnerDiv,
+.noData {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+.spinnerDiv > p {
+  color: black;
+}
+@media (prefers-color-scheme: dark) {
+  .App {
+    background-color: black;
+    color: ghostwhite;
+  }
+
+  body {
+    background-color: black;
+  }
+}

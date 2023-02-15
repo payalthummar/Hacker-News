@@ -1,0 +1,89 @@
+.navbar {
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: teal;
+  color: ghostwhite;
+  font-size: larger;
+  position: sticky;
+  top: 10px;
+  height: 50px;
+  border-width: 2px 0px;
+  border-color: black;
+  border-style: solid;
+}
+
+.navbar-outer {
+  text-align: center;
+  position: sticky;
+  top: 10px;
+}
+
+.button-div {
+  margin-top: 5px;
+}
+
+.button-past {
+  border: 1px solid rgb(10, 10, 10);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: lightgrey;
+  display: inline-block;
+  height: 25px;
+  width: 30px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  padding-right: 1%;
+  color: ghostwhite;
+  cursor: pointer;
+  height: 16px;
+  padding-right: 1%;
+}
+
+.HN {
+  color: ghostwhite !important;
+  cursor: pointer;
+}
+
+.clickLI {
+  cursor: pointer;
+}
+
+.navbar-list {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 15px;
+  margin: 0;
+}
+
+.search-input {
+  font-size: large;
+  margin-left: 2%;
+}
+
+.navP {
+  color: rgb(203, 199, 199);
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: "";
+}

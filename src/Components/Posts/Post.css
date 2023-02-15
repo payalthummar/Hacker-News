@@ -1,0 +1,61 @@
+.listItem {
+  margin: 0px;
+  padding: 0px;
+}
+.listPara {
+  display: flex;
+  flex-direction: row;
+  color: rgb(100, 100, 100);
+  margin: 1px;
+}
+
+.hNews {
+  margin: 0px;
+  font-size: larger;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.listDiv {
+  padding-top: 15px;
+}
+
+.News-ol {
+  padding-top: 1px;
+  color: rgb(31, 31, 31);
+}
+
+.sub-ul {
+  font-size: 10px;
+}
+a:link {
+  text-decoration: none;
+  color: rgb(31, 31, 31);
+}
+
+.clickComment {
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+  .listPara {
+    color: rgb(130, 129, 129);
+    margin: 1px;
+  }
+
+  .News-ol {
+    padding-top: 1px;
+    color: rgb(181, 181, 181);
+  }
+  a:link {
+    text-decoration: none;
+    color: rgb(181, 181, 181);
+  }
+
+  a:visited {
+    color: teal;
+  }
+}
+a {
+  color: black;
+}
