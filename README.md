@@ -1,6 +1,6 @@
 <h1 align="center">Hacker-News</h1>
 
-<h2 align="center">A Simple React App of Hacker-News using hooks an External API.</h2>
+<h2 align="center">A Simple React App of Hacker-News using hooks and External API.</h2>
 
 <br />
 <p align="center">
