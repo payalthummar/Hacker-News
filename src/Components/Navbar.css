@@ -87,3 +87,15 @@ ul {
 .visible {
   display: "";
 }
+@media screen and (max-width: 600px) {
+  .navbar {
+    height: 30vh;
+  }
+  .navbar-list {
+    flex-direction: column;
+    color: black;
+  }
+  .navP {
+    display: none;
+  }
+}

@@ -25,26 +25,27 @@
 }
 
 .News-ol {
-  padding: 2px;
+  padding: 3px;
 }
-
-.ppp {
-  width: 40px;
-  margin-right: 10px;
+.News-ol .page a,
+.postinput,
+.postperpage,
+.left {
+  padding: 5px;
+  border-radius: 5px;
 }
-
-.pppp {
+.page a:hover,
+.left:hover {
+  background-color: teal;
+}
+.postperpage {
   margin-right: 20px;
 }
 
-.ppp {
+.postinput {
   width: 40px;
   margin-right: 10px;
   margin-left: 10px;
-}
-
-.pppp {
-  margin-right: 20px;
 }
 
 .hitscount {

@@ -12,11 +12,16 @@ export default function Post({ posts, setUrl }) {
           {posts.title}
         </h4>
         {/* {console.log(posts.url)} */}
-        <p> {posts.url}</p>
+        {/* <p> {posts.url}</p> */}
         <div className="listPara">
           <p>{posts.points} points | article by: </p> <div>&nbsp;</div>
           <p onClick={() => setUrl(authUrl)} className="clickComment">
-            {posts.author}
+            <span
+              class="hovertext"
+              data-hover="Click me to see my all articles"
+            >
+              {posts.author}
+            </span>
           </p>
           <div>&nbsp;</div>
           <p> | created at: {timeago} | </p>

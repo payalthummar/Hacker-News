@@ -46,9 +46,9 @@ export default function Pagination({
           min="3"
           max="50"
           onChange={changeHandler}
-          className="ppp"
+          className="postinput"
         />
-        <button className="pppp" onClick={submitHandler}>
+        <button className="postperpage" onClick={submitHandler}>
           posts per page
         </button>
       </form>
